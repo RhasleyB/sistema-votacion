@@ -28,8 +28,6 @@
   </head>
   <body>
 
-    <?php require 'partials/header.php' ?>
-
     <?php if(!empty($message)): ?>
       <p> <?= $message ?></p>
     <?php endif; ?>
