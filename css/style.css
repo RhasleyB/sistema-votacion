@@ -1,0 +1,53 @@
+div.container-login {
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.card {
+    width: 600px;
+    padding: 80px 30px 80px 30px;
+    border-radius: 50px;
+}
+
+div.logo-image img{
+    display: flex;
+    width: 50%;
+    margin: 10% 20% 10% 25%;
+}
+
+div.card button {
+    margin: 50px;
+    padding: 15px 80px;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media(max-width: 680px) {
+    #navbar-pc {
+        display: none;
+    }
+    #navbar-mobile {
+        display: block;
+    }
+    .table-responsive {
+        display: none;
+    }
+}
+@media(min-width: 680px) {
+    #navbar-pc {
+        display: flex;
+    }
+    #navbar-mobile {
+        display: none;
+    }
+}
+
+div.container-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
